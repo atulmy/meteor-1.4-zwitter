@@ -1,4 +1,4 @@
-# Meteor 1.4 Demo
+# Meteor 1.4
 Demo codebase for upcoming v1.4 release of Meteor.
 
 ## Authors
