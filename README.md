@@ -20,7 +20,7 @@ Documentation is available at http://docs.meteor.com/
 
 ## License
 
-Copyright (c) 2015 Atul Yadav http://github.com/atulmy
+Copyright (c) 2016 Atul Yadav http://github.com/atulmy
 
 The MIT License (http://www.opensource.org/licenses/mit-license.php)
 
