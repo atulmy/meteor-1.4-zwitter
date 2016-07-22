@@ -1,0 +1,19 @@
+<template name="layoutsDefault">
+    <header>
+        <h1>Zwitter</h1>
+
+        <a href="{{ pathFor route='home' }}">Home</a> &bull; <a href="{{ pathFor route='tweet' }}">Tweet</a>
+    </header>
+
+    <hr />
+
+    <section>
+        {{> yield }}
+    </section>
+
+    <hr />
+
+    <footer>
+        &copy; 2016 Zwitter
+    </footer>
+</template>
