@@ -1,9 +1,7 @@
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { ValidatedMethod } from 'meteor/mdg:validated-method';
 
-import { Tweet, TweetSchema } from './collection';
-
-console.log(TweetSchema);
+import { Tweet } from './collection';
 
 export const add = new ValidatedMethod({
     name: 'tweet.add',

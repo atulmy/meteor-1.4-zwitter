@@ -19,19 +19,21 @@ Template.pagesTweet.events({
 
         console.log(input);
 
-        TweetMethods.add.call(input, (error, response) => {
-            console.log('M - tweet.add / callback');
+        if(input.tweet != '') {
+            TweetMethods.add.call(input, (error, response) => {
+                console.log('M - tweet.add / callback');
 
-            if(error) {
-                alert('There was some error');
-            } else {
-                alert(response.message);
+                if (error) {
+                    alert('There was some error');
+                } else {
+                    alert(response.message);
 
-                if(response.success) {
-                    Router.go('home');
+                    if (response.success) {
+                        Router.go('home');
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 });
 

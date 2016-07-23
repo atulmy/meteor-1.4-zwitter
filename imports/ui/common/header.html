@@ -1,0 +1,17 @@
+<template name="commonHeader">
+    <header>
+        <h1>Zwitter</h1>
+
+        <a href="{{ pathFor route='home' }}">Home</a> &bull;
+
+        <a href="{{ pathFor route='tweet' }}">Tweet</a> &bull;
+
+        {{# if currentUser }}
+            <a href="#" id="logout">Logout</a>
+        {{ else }}
+            <a href="{{ pathFor route='login' }}">Login</a> &bull;
+
+            <a href="{{ pathFor route='register' }}">Register</a>
+        {{/ if }}
+    </header>
+</template>
