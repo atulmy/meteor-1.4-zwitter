@@ -10,7 +10,7 @@ Demo codebase for upcoming v1.4 release of Meteor.
 - mdg:validated-method
 - msavin:mongol
 
-## Node (npm)
+### Node (npm)
 - meteor-node-stubs
 - bootstrap
 - moment
