@@ -1,13 +1,17 @@
 # Meteor 1.4
 Demo codebase for upcoming v1.4 release of Meteor.
 
-
 ## Packages Used
 - accounts-password
 - iron:router
 - aldeed:collection2
 - mdg:validated-method
 - msavin:mongol
+
+## Features
+- List all tweets
+- Post a tweet (after logging in)
+- Login / Register
 
 ## Authors
 
