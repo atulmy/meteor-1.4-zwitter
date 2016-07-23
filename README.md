@@ -14,7 +14,7 @@ Demo codebase for upcoming v1.4 release of Meteor.
 - Login / Register
 
 ## Running
-- Clone repo `git clone git@github.com:atulmy/meteor-1.4.git zwitter`
+- Clone repo `git clone git@github.com:atulmy/meteor-1.4.git zwitter` and `cd zwitter`
 - Install NPM modules `meteor npm install`
 - Run Meteor with settings `meteor --settings settings.json`
 
