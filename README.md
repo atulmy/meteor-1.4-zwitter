@@ -13,6 +13,11 @@ Demo codebase for upcoming v1.4 release of Meteor.
 - Post a tweet (after logging in)
 - Login / Register
 
+## Running
+- Clone repo `git clone git@github.com:atulmy/meteor-1.4.git zwitter`
+- Install NPM modules `meteor npm install`
+- Run Meteor with settings `meteor --settings settings.json`
+
 ## Authors
 
 Atul Yadav - [GitHub](https://github.com/atulmy) &bull; [Twitter](https://twitter.com/atulmy)
