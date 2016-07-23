@@ -2,11 +2,18 @@
 Demo codebase for upcoming v1.4 release of Meteor.
 
 ## Packages Used
+
+### Meteor (atmospherejs)
 - accounts-password
 - iron:router
 - aldeed:collection2
 - mdg:validated-method
 - msavin:mongol
+
+## Node (npm)
+- meteor-node-stubs
+- bootstrap
+- moment
 
 ## Features
 - List all tweets
