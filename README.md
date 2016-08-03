@@ -25,6 +25,9 @@ Demo codebase for upcoming v1.4 release of Meteor.
 - Install NPM modules `meteor npm install`
 - Run Meteor with settings `meteor --settings settings.json`
 
+## Tutorial
+- Video https://www.periscope.tv/w/1YqGowODbQjGv
+
 ## Authors
 
 Atul Yadav - [GitHub](https://github.com/atulmy) &bull; [Twitter](https://twitter.com/atulmy)
